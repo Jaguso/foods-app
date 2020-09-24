@@ -111,9 +111,8 @@
 
 
             
-            <!-- TODO 7 Delete comment to <include below -->
-            <!-- <include android:id="@+id/shimmerCategory"
-                layout="@layout/item_recycler_category_shimmer" />-->
+            <include android:id="@+id/shimmerCategory"
+                layout="@layout/item_recycler_category_shimmer" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
