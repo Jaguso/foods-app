@@ -14,12 +14,15 @@ import java.util.List;
 
 public class Meals {
 
-    /*
-     * TODO 8 Paste the generated results
-     *
-     * Paste the generated results from -
-     * http://www.jsonschema2pojo.org/
-     */
+    @SerializedName("meals")
+    @Expose
+    private List<Meal> meals = null;
+    public  List<Meal> getMeals() {
+        return  meals;
+    }
+    public  void setMeals(List<Meal> meals) {
+        this.meals = meals;
+    }
 
     public class Meal {
         /*
